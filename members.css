@@ -1,0 +1,42 @@
+body {
+	background-image: linear-gradient(to left,#004e8e, #014684, #013d7b, #013571, #012d68, #012963, #01265f, #01225a, #012159, #012058, #002057, #001f56);
+    overflow:hidden ;
+
+}
+.members-table {
+    border-collapse: collapse;
+    width: 70%;
+    height: 100vh;
+    background-color: white;
+    overflow: hidden ;
+}
+.members-table thead tr {
+    text-align: left;
+	background-color: #0d80c2;
+
+}
+.members-table th,td {
+    padding: 12px 15px;
+}
+.members-table tbody tr {
+    border-bottom: 0.8px solid #0d80c2;
+}
+.members-table tbody tr:nth-of-type(even) {
+    /* background-color: #f3f3f3; */
+    background-color: #f3f3f3;
+
+}
+.members-table tbody tr:last-of-type {
+    border-bottom:4px solid #0d80c2 ;
+}
+
+#back {
+    color: white;
+    position: relative;
+    left: 1em;
+    top: 1em;
+}
+#table-heading-members {
+
+    text-align: center;
+}
