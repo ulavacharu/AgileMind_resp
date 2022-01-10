@@ -12,7 +12,7 @@ body{
 	background-image: url(images/bg-img.png);
 	background-size:cover; 
 	background-repeat: no-repeat;
-	background-attachment: scrol ;
+	background-attachment: scroll ;
 	background-position:20%;
 }
 
@@ -489,10 +489,12 @@ body{
 	}
 	
 	.nav-links ul{
+
 		width: 100%;
 		flex-direction: column;
 	}
 	.nav-links li,a{
+		z-index: 1000;
 		text-align: center;
 	}
 	.nav-links.active {
