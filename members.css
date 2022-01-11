@@ -18,6 +18,7 @@ body{
     left: 0px;
 }
 .info-item{
+    
     width: 220px;
     height: 140PX;
     background-color: white;
@@ -29,4 +30,7 @@ body{
 .info-item h2,h5,h4 {
     margin-bottom: 1.3rem;
     margin-top: 1rem;
+}
+.info-item:hover {
+    padding: 10px;
 }
