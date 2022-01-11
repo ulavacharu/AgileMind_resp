@@ -414,7 +414,6 @@ body{
 	border: 1px solid black ;
 	border-radius: 13px;
 	margin-bottom: 20px;
-
 }
 .faculty-body {
 	border-radius: 13px;
@@ -502,7 +501,7 @@ body{
 
 	}
 	.ham-menu.active {
-		padding-bottom: 60px;
+		padding-bottom: 10vh;
 		transition: 0.2s ease-out;	
 	}
 	.heading-caption-dept.active {

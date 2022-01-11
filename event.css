@@ -1,25 +1,34 @@
 body  {
 	background-image: linear-gradient(to left,#004e8e, #014684, #013d7b, #013571, #012d68, #012963, #01265f, #01225a, #012159, #012058, #002057, #001f56);
-    overflow:hidden ;
+    background-attachment: fixed;
 }
 html {
     width: 100%;
     height: 100%;
+}
+#back {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 0vh;
+    left: 0vw;
+
 }
 .event-container {
     display: flex;
     width: 100%;
     height: 50%;
     flex-direction: row;
+    flex-wrap: wrap;
     background-color: inherit;
     justify-content: center;
 }
 .event {
-    height: 100%;
-    width: 20%;
-    border-top: 5px  rgb(45, 121, 209) dashed;
-    border-right: 5px rgb(45, 121, 209) dashed;
-    border-left: 5px rgb(45, 121, 209) dashed;
+    width: 280px;
+    border-top: 3px  rgb(45, 121, 209) dashed;
+    border-right: 3px rgb(45, 121, 209) dashed;
+    border-left: 3px rgb(45, 121, 209) dashed;
+    margin-bottom: 30px;
 
 }
 .event img {
@@ -28,15 +37,10 @@ html {
 }
 .event-info {
     width: 100%;
-    border-bottom: 5px rgb(45, 121, 209) dashed ;
-    height: 100px;
+    border-bottom: 3px rgb(45, 121, 209) dashed ;
     background-color: white;
     text-align: center;
 }
-.event-info h3 {
-    padding-bottom: 5px;
-
-}
-.event-info h5 {
+.event-info h2,h4,h5 {
     padding-bottom: 15px;
 }
