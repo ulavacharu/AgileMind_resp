@@ -1,4 +1,4 @@
-# AgileMind_resp
+# AgileMind
 Agile Minds an website for the cse club of NNRG
 
 ## Link:
