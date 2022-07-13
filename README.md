@@ -1,6 +1,6 @@
 # AgileMinds [AI Club of CSE Dept.]
 
-Agile Minds club's website 
+Agile Minds official website 
 
 ## Link:
 https://nnrg.edu.in/cseclubs/agileMinds/
